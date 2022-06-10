@@ -1,0 +1,189 @@
+---
+title: "Lilian VALLET"
+subtitle: "1er comité de suivi de thèse"
+author: ""
+institute: "Centre d'Ecologie Fonctionelle et Evolutive"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["css/rutgers-tidyverse.css","css/rutgers-fonts_og.css"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "css/macro.js"
+---
+```{r, echo=FALSE, message=FALSE, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(fig.align = "center", 
+                      message = FALSE, 
+                      warning = FALSE, 
+                      paged.print = FALSE)
+
+library(tidyverse) # Easily Install and Load the 'Tidyverse'
+```
+
+# Encadrement de la thèse
+.pull-left[
+## Florent Mouillot
+Chargé de recherche IRD
+- Régime de feux
+- Cycles biogéochmique
+- Methodes et outils de détection et d'analyse 
+
+
+![](figure/logcmjn.jpg)
+]
+
+.pull-right[
+##Xavier Morin
+Directeur de recherche CNRS
+- Modèles de dynamique forestière
+- Relation diversité-fonctionnement
+- Utilisation des inventaires forestiers
+
+
+
+----
+
+*Département Ecologie Fonctionelle*
+
+**Equipe FORECAST** : FOREts, Changements globaux, et Adaptation: Simulations et expérimenTations
+
+Représentante de l'UMR au comité de suivi : Mme Sarah Cubaynes
+
+Représentant extérieur à l'UMR : Mr Thomas Lauvaux
+]
+
+
+
+---
+#Financement de la thèse
+
+.pull-left[
+##ADEME : Agence de la transition écologique
+**Financement national**
+
+Employeur de la thèse 
+
+Référente ADEME au comité de suivi : Mme Miriam Buitrago
+
+![](figure/ADEME.png)
+]
+
+.pull-right[
+## FirEUrisk european project - IRD
+
+**Financement européen**
+
+Référent IRD au comité de suivi : Mr Raphaël Pélissier
+
+![](figure/FirEUrisk_logo_composit.png)
+
+![](figure/logo-IRD.png)
+
+]
+---
+#ADEME : Agence de la transition écologique
+.left-column[
+![](figure/ADEME.png)
+- 3 comité de suivi/pilotage
+- 3 rapport d'avancement
+]
+.right-column[![:scale 70%](figure/Capture d’écran 2022-06-09 104501.png)]
+---
+#FirEUrisk european project - IRD
+.left-column[![](figure/FirEUrisk_logo_composit.png)
+![](figure/logo-IRD.png)
+![](figure/Capture d’écran 2022-06-09 113943.png)
+]
+.right-column[![](figure/Study_site_1.png)![](figure/Capture d’écran 2022-06-09 113943.png)]
+---
+#FirEUrisk european project - IRD
+.pull-left[![](figure/WP1.png)]
+.pull-right[![](figure/WP2.png)
+
+![](figure/WP3.png)]
+---
+#Ecole Doctorale
+- 2 Comité de suivis
+- Participation à une conférence internationale
+- Validation de 90 heures de formations doctorale :
+  - Formation proposées par l'ED ou le collège doctorale
+  - Formation hors catalogue et MOOC
+  - Participation à des séminaires nationaux et internationaux (présentation ou poster)
+  - Vulgarisation scientifique
+  
+
+
+.pull-left[![:scale 50%](figure/LOGO-UM.jpg)]
+.pull-right[
+
+![](figure/logoED.png)]
+---
+#Ecole Doctorale
+![:scale 110%](figure/Formations.png)
+
+---
+# Plan de thèse
+![](figure/Plan_these.png)
+---
+# Plan de thèse
+![](figure/Plan_these_2.png)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées FORETS
+![](figure/Tache1.1_1_page-0001.jpg)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées FORETS
+![](figure/Tache1.1_1_page-0002.jpg)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées FORETS
+![](figure/Tache1.1_1_page-0003.jpg)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+![](figure/Tache1.2_page-0001.jpg)
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+## Global dataset
+**12453** observations de 2000 à 2021, avec
+
+- 8408 feux agricoles
+  - 6008 feux de champs
+  - 2400 feux de bâtiments
+- 1577 feux pastoraux
+
+
+5 types de variables :
+
+- Date (jour/mois/année)
+- Commune de l'évènementt (Nom and code INSEE)
+- Localisation de la commune (Latitude et Longitude)
+- Type de vegetation
+- Source de la donnée
+
+Variables additionnelles :
+- Surface brulée pour les feux de champs
+- Type de stockage et estimation du poids sec brulée pour les feux de bâtiments
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+![](figure/Tache1.2_page-0002.jpg)
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+## Distribution spatiale
+![](figure/BA_facet.png)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+## Dynamique temporelle
+![:scale 70%](figure/MeanNbFire_Month_barplot.png)
+
+---
+# Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
+## Dynamique temporelle
+![:scale 70%](figure/NbFire_Date_density.png)
