@@ -176,7 +176,7 @@ Variables additionnelles :
 ---
 # Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
 ## Distribution spatiale
-![](figure/BA_facet.png)
+![](figure/Spatial.png)
 
 ---
 # Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
