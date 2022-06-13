@@ -176,7 +176,7 @@ Variables additionnelles :
 ---
 # Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
 ## Distribution spatiale
-![](figure/Spatial.png)
+<img src="figure/Spatial.png" height=110% width=110%/>
 
 ---
 # Tâche 1 : Reconstitution des surfaces incendiées AGRICOLES
@@ -197,7 +197,7 @@ Variables additionnelles :
 - Construction d'un modèle bayésien prédictif basé sur :
   - Date d'occurence
   - Localisation d'occurence
-  Type de végétation
+  - Type de végétation
   - Données climatiques (ERA5-Land)
     - Humidité Relative
     - Vitesse du vent
